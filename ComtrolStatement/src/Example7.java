@@ -18,13 +18,21 @@ public class Example7 {
         System.out.println(getMax(50, 50)); // 두 수는 같음"
     }
 
-    public static String getMax(int number1, int number2) {
-        if (number1 > number2) {
-            return ("큰 수는 " + number1);
-        } else if (number2 > number1) {
-            return ("큰 수는 " + number2);
+    public static String getMax(int a, int b) {
+        if (a > b) {
+            return("큰 수는 " + a);
+        } else if (b > a){
+            return("큰 수는 " + b);
         } else {
-            return ("두 수는 같음");
+            return("두 수는 같음");
         }
     }
+//    public static int getMax(int a, int b) {
+//        if (a >= b) {
+//            return a;
+//        }else {
+//            return b;
+//        }
+//    }
 }
+
